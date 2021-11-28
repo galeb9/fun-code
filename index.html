@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburger</title>
+</head>
+<body>
+    <body>
+        <main>
+            <div class="btn-container">
+                <button id="ham-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+    
+                <nav id="nav">
+                    <ul>
+                        <li href="#">Google</li>
+                        <li href="#">Youtube</li>
+                        <li href="#">Twitter</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="toast-notification-container">
+                <button id="toast-notif-btn">Click Me Pretty Please 🔔</button>
+                <p id="toasts"></p>
+            </div>
+           
+            <!-- popup -->
+            <button id="openBtn">Open</button>
+    
+            <div id="popup-container">
+                <div class="popup">
+                    <button id="closeBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <h1>Top secret message</h1>
+                    <p><a target="_blank" href="https://c.tenor.com/lnzb_NOYs1cAAAAC/baby-yoda.gif">follow this link</a> </p>
+                </div>
+            </div>
+            
+            <div id="rain-container">
+                <label for="rainInput">What should rain?</label> <br>
+                <input id="rainInput" name="rainInput" type="text"> <br>
+                <button id="makeItRainBtn">Make it rain</button>
+            </div>
+             <!-- auto-write-text -->
+             <div id="auto-write-container"></div>
+        </main>
+
+
+        <section>
+            <!-- bg change random -->
+            <div id="btn-ch-bg">
+                <button id="ch-bg-btn">Change background </button>
+            </div>
+            <!-- toggle dark/normal mode -->
+            <div id="dark-mode">
+                <input type="checkbox" id="toggle" name="toggle"></inpu>
+                <label for="toggle">Dark mode 🌛</label>
+            </div>
+            <!-- carousel -->
+            <div class="carousel-holder">
+                <div class="carousel">
+                    <div class="image-container" id="image-container">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+                        <img src="https://images.unsplash.com/photo-1558929996-da64ba858215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="">
+                        <img src="https://images.unsplash.com/photo-1536809188428-e8ecf663d0be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+                    </div>
+                </div>
+                <div class="btn-holder">
+                    <button id="back">Back</button>
+                    <button id="next">Next</button>
+
+                </div>
+            </div>
+            
+        </section>
+    </body>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
