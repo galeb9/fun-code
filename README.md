@@ -1,3 +1,3 @@
 # fun-code
- some fun projects combined together
-Live preview: https://galeb9.github.io/fun-code/
+Some fun projects combined together,
+live preview: https://galeb9.github.io/fun-code/
